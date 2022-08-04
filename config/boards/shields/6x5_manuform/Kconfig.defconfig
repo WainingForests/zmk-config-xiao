@@ -1,14 +1,14 @@
-if SHIELD_MY_BOARD_LEFT
+if SHIELD_6x5_MANUFORM_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "My Board"
+    default "6x5 Manuform"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+if SHIELD_6x5_MANUFORM_LEFT || SHIELD_SHIELD_MY_BOARD_RIGHT
 
 config ZMK_SPLIT
     default y
