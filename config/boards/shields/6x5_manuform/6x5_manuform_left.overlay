@@ -1,4 +1,4 @@
-// 6x5_manuform.overlay
+// 6x5_manuform_left.overlay
 
 #include "6x5_manuform.dtsi" 
 
