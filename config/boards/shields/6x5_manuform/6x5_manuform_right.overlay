@@ -1,22 +1,18 @@
-/*
- * Copyright (c) 2020 Pete Johanson
- *
- * SPDX-License-Identifier: MIT
- */
+// 6x5_manuform_right.overlay
 
-#include "lily58.dtsi"
+#include "6x5_manuform.dtsi"
 
 &default_transform {
-	col-offset = <6>;
+    col-offset = <6>;
 };
 
 &kscan0 {
-	col-gpios
-		= <&pro_micro 10 GPIO_ACTIVE_HIGH>
-		, <&pro_micro 16 GPIO_ACTIVE_HIGH>
-		, <&pro_micro 14 GPIO_ACTIVE_HIGH>
-		, <&pro_micro 15 GPIO_ACTIVE_HIGH>
-		, <&pro_micro 18 GPIO_ACTIVE_HIGH>
-		, <&pro_micro 19 GPIO_ACTIVE_HIGH>
-		;
+    col-gpios
+        = <&xiao_d 10 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 9 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 8 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 7 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 6 GPIO_ACTIVE_HIGH>
+        , <&xiao_d 5 GPIO_ACTIVE_HIGH>
+        ;
 };
