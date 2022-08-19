@@ -6,6 +6,3 @@ url: https://github.com/WainingForests/zmk-config-xiao/
 requires: [seeed_xiao]
 features:
   - keys
-siblings:
-  - 6x5_manuform_left
-  - 6x5_manuform_right
