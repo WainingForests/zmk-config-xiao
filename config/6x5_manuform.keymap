@@ -13,7 +13,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // COMMENTED LAYOOUT DOES NOT UPDATE WITH CHANGES VIA ZMK KEYMAP VIA KICKCOUTSOS
+        default_layer {
             // ------------------------------------------------------------------------------------------------------------
             // |  ESC  |  1  |  2  |  3   |  4   |  5   |                    |  6   |  7    |  8    |  9   |   0   |   `   |
             // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                    |  Y   |  U    |  I    |  O   |   P   |   -   |
@@ -22,11 +22,11 @@
             //             | ALT |  GUI | LOWER | SPACE | "[" |       | "]"  | ENTER | RAISE | BSPC | GUI |
 
             bindings = <
-   &kp ESC     &kp N1     &kp N2         &kp N3    &kp N4  &kp N5  &kp N6           &kp N7      &kp N8     &kp N9     &kp N0		&kp F2
-   &kp TAB      &kp Q      &kp W          &kp F     &kp P   &kp B   &kp J            &kp L      &kp U	   &kp Y       &kp SEMICOLON	&kp MINUS
- &kp LSHFT      &kp A      &kp R          &kp S     &kp T   &kp G   &kp M            &kp N      &kp E      &kp I       &kp O		&kp SQT
- &kp GRAVE      &kp Z      &kp X          &kp C     &kp D   &kp V   &kp K            &kp H   	&kp COMMA  &kp DOT     &kp FSLH  	&kp BACKSLASH
-            &kp LCTRL  &kp SPACE  &kp BACKSPACE  &kp LALT   &mo 1		   &mo 2	&kp PSCRN  &kp DELETE  &kp RETURN	&kp RGUI
+   &kp ESC         &kp N1  &kp N2     &kp N3     &kp N4    &kp N5  &kp N6     &kp N7      &kp N8      &kp N9         &kp N0         &kp F2
+   &kp TAB          &kp Q   &kp W      &kp F      &kp P     &kp B   &kp J      &kp L       &kp U       &kp Y  &kp SEMICOLON      &kp MINUS
+ &kp LSHFT          &kp A   &kp R      &kp S      &kp T     &kp G   &kp M      &kp N       &kp E       &kp I          &kp O        &kp SQT
+ &kp GRAVE          &kp Z   &kp X      &kp C      &kp D     &kp V   &kp K      &kp H   &kp COMMA     &kp DOT       &kp FSLH  &kp BACKSLASH
+            &kp BACKSPACE   &mo 1  &kp LCTRL  &kp SPACE  &kp LALT   &mo 2  &kp PSCRN  &kp DELETE  &kp RETURN                      &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
