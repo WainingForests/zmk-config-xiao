@@ -22,7 +22,7 @@
             //             | ALT |  GUI | LOWER | SPACE | "[" |       | "]"  | ENTER | RAISE | BSPC | GUI |
 
             bindings = <
-	&reset	&BT_NXT	&kp N2	&kp N3	&kp N4	&kp N5				&reset	&BT_NXT	&kp N8	&kp N9	&kp N0	&kp GRAVE  
+	&reset	&bt BT_NXT	&kp N2	&kp N3	&kp N4	&kp N5				&reset	&bt BT_NXT	&kp N8	&kp N9	&kp N0	&kp GRAVE  
 	&bt BT_CLR	&kp Q	&kp W	&kp E	&kp R	&kp T				&bt BT_CLR	&kp U	&kp I	&kp O	&kp P	&kp MINUS  
 	&bt BT_SEL 0	&kp A	&kp S	&kp D	&kp F	&kp G			&bt BT_SEL 0	&kp J	&kp K	&kp L	&kp SEMI	&kp SQT	
 	&bootloader	&kp Z	&kp X	&kp C	&kp V	&kp B			&bootloader   &kp M &kp COMMA	&kp DOT	&kp FSLH	&kp RSHFT  
