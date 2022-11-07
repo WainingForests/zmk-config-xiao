@@ -22,11 +22,11 @@
             // | ALT    |GUI  | LOWER | SPACE | "[" | 1 |                      | "]"  | ENTER | RAISE | BSPC | GUI | |  2 |
 
             bindings = <
-   &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7     &kp N8   &kp N9         &kp N0      &kp EQUAL
-   &kp TAB   &kp Q   &kp W   &kp F   &kp P   &kp B   &kp J   &kp L      &kp U    &kp Y  &kp SEMICOLON      &kp MINUS
- &kp LSHFT   &kp A   &kp R   &kp S   &kp T   &kp G   &kp M   &kp N      &kp E    &kp I          &kp O        &kp SQT
- &kp GRAVE   &kp Z   &kp X   &kp C   &kp D   &kp V   &kp K   &kp H  &kp COMMA  &kp DOT       &kp FSLH  &kp BACKSLASH
-    &kp N4  &kp N3  &kp N6  &kp N1  &kp N2  &kp N5  &kp N4  &kp N5     &kp N3   &kp N2         &kp N6         &kp N1
+   &kp ESC         &kp N1  &kp N2          &kp N3     &kp N4        &kp N5  &kp N6         &kp N7         &kp N8     &kp N9     &kp N0      &kp EQUAL
+   &kp TAB          &kp Q   &kp W           &kp E      &kp R         &kp T   &kp Y          &kp U          &kp I      &kp O      &kp P      &kp MINUS
+ &kp LSHFT          &kp A   &kp S           &kp D      &kp F         &kp G   &kp H          &kp J          &kp K      &kp L  &kp COLON        &kp SQT
+ &kp GRAVE          &kp Z   &kp X           &kp C      &kp V         &kp B   &kp N          &kp M      &kp COMMA    &kp DOT   &kp FSLH  &kp BACKSLASH
+ &kp LCTRL  &kp BACKSPACE   &mo 1  &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT   &mo 2  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp ENTER  &kp RCTRL        &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
