@@ -19,7 +19,7 @@
             // |  TAB   |  Q  |  W  |  E   |  R   |  T   |                    |  Y   |  U    |  I    |  O   |   P   |   -   |
             // |  CTRL  |  A  |  S  |  D   |  F   |  G   |                    |  H   |  J    |  K    |  L   |   ;   |   '   |
             // | SHIFT  |  Z  |  X  |  C   |  V   |  B   |                    |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-            // | 2      |  2  | f   | 6    | 4    | 1    |                      | 2  | 1 | w | s | n | |  a |
+            // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
    &kp ESC         &kp N1  &kp N2          &kp N3     &kp N4        &kp N5     &kp N6  &kp N7         &kp N8         &kp N9     &kp N0      &kp EQUAL
