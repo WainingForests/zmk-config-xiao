@@ -15,8 +15,11 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp B &kp LS(T) &kp Y &kp P &kp E &kp SPACE &kp S &kp O &kp M &kp E &kp T &kp H &kp I &kp N &kp G &kp DOT &kp DOT &kp DOT &kp LS(T)>;
+                <&macro_press &mo 1>
+    , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,100)>
+    , <&macro_pause_for_release>
+    , <&macro_release &mo 1>
+    , <&macro_tap &rgb_ug RGB_COLOR_HSB(300,100,50)>;
         };
     };
 
