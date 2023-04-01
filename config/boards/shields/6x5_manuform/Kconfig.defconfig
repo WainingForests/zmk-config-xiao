@@ -5,6 +5,10 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+    
+config_ZMK_RGB_UNDERGLOW=y
+# Use the STRIP config specific to the LEDs you're using
+CONFIG_WS2812_STRIP=y
 
 endif
 
@@ -12,5 +16,9 @@ if SHIELD_6x5_MANUFORM
 
 config ZMK_SPLIT
     default y
+    
+CONFIG_ZMK_RGB_UNDERGLOW=y
+# Use the STRIP config specific to the LEDs you're using
+CONFIG_WS2812_STRIP=y
 
 endif
