@@ -10,7 +10,7 @@
 
 / {
     macros {
-        new_macro: new_macro {
+        m1_led: m1_led {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
@@ -22,6 +22,20 @@
     , <&macro_tap &rgb_ug RGB_COLOR_HSB(300,100,50)>;
         };
     };
+/ {
+    macros {
+        m2_led: m2_led {
+            label = "m2_";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =                 <&macro_press &mo 2>
+    , <&macro_tap &rgb_ug RGB_COLOR_HSB(128,100,100)>
+    , <&macro_pause_for_release>
+    , <&macro_release &mo 2>
+    , <&macro_tap &rgb_ug RGB_COLOR_HSB(150,50,50)>;
+        };
+    };
+};
 
     keymap {
         compatible = "zmk,keymap";
