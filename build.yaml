@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano
-    shield: 6x6_manuform_left
+    shield: 6x5_manuform_left
   - board: nice_nano
-    shield: 6x6_manuform_right
+    shield: 6x5_manuform_right
