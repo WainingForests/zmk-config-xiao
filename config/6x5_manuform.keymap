@@ -29,13 +29,13 @@
 
         Layer__1 {
             bindings = <
-&bt BT_CLR  &bt BT_NXT  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD               &rgb_ug RGB_SAI  &rgb_ug RGB_SAD    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(0,0,0)
-    &kp F1      &kp F2           &kp F3           &kp F4                        &kp F5           &kp F6             &kp F7           &kp F8           &kp F9          &kp F10          &kp F11                       &kp F12
-    &trans      &trans           &trans           &trans                        &trans           &trans             &trans           &trans           &trans           &trans           &trans                        &trans
-    &trans      &trans           &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(0,0,0)           &trans             &trans           &trans           &trans           &trans           &trans                        &trans
-                                 &trans           &trans                        &trans                                               &trans           &trans           &trans
-                                                  &trans                        &trans                                               &trans           &trans
-                &trans           &trans                                                                                                                                &trans           &trans
+&bt BT_CLR   &bt BT_NXT  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD               &rgb_ug RGB_SAI  &rgb_ug RGB_SAD    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(0,0,0)
+    &kp F1       &kp F2           &kp F3           &kp F4                        &kp F5           &kp F6             &kp F7           &kp F8           &kp F9          &kp F10          &kp F11                       &kp F12
+    &trans       &trans           &trans           &trans                        &trans           &trans             &trans           &trans           &trans           &trans           &trans                        &trans
+    &trans       &trans           &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(0,0,0)           &trans             &trans           &trans           &trans           &trans           &trans                        &trans
+                                  &trans           &trans                        &trans                                               &trans           &trans           &trans
+                                                   &trans                        &trans                                               &trans           &trans
+            &bootloader           &reset                                                                                                                                &trans           &trans
             >;
         };
 
