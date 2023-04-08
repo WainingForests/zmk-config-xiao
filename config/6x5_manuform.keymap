@@ -15,13 +15,13 @@
 
         default_layer {
             bindings = <
-    &kp ESCAPE           &kp N1      &kp N2    &kp N3        &kp N4  &kp N5    &kp N6           &kp N7         &kp N8            &kp N9    &kp N0      &kp MINUS
-       &kp TAB            &kp Q       &kp W     &kp E         &kp R   &kp T     &kp Y            &kp U          &kp I             &kp O     &kp P  &kp BACKSLASH
-         &mo 1            &kp A       &kp S     &kp D         &kp F   &kp G     &kp H            &kp J          &kp K             &kp L  &kp SEMI        &kp SQT
-&kp LEFT_SHIFT            &kp Z       &kp X     &kp C         &kp V   &kp B     &kp N            &kp M      &kp COMMA           &kp DOT  &kp FSLH      &kp EQUAL
-                                  &kp SPACE   &kp DEL     &kp LCTRL                    &kp PRINTSCREEN  &kp BACKSPACE         &kp ENTER
-                                             &kp LALT  &kp LEFT_WIN                      &kp RIGHT_ALT     &kp K_MENU
-                &rgb_ug RGB_TOG  &kp LA(F4)                                                                            &kp LEFT_BRACKET  &kp RBKT
+  &kp ESC    &kp N1     &kp N2     &kp N3   &kp N4  &kp N5    &kp N6    &kp N7         &kp N8     &kp N9    &kp N0  &kp EQUAL
+  &kp TAB     &kp Q      &kp W      &kp E    &kp R   &kp T     &kp Y     &kp U          &kp I      &kp O     &kp P  &kp MINUS
+&kp LSHFT     &kp A      &kp S      &kp D    &kp F   &kp G     &kp H     &kp J          &kp K      &kp L  &kp SEMI    &kp SQT
+&kp GRAVE     &kp Z      &kp X      &kp C    &kp V   &kp B     &kp N     &kp M      &kp COMMA    &kp DOT  &kp FSLH   &kp BSLH
+                     &kp LSHFT  &kp SPACE  &kp DEL                    &kp BSPC      &kp ENTER   &kp RGUI
+                                 &kp LALT    &mo 1                       &mo 2  &kp RIGHT_ALT
+           &kp LBKT  &kp LCTRL                                                                 &kp RCTRL  &kp RBKT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
