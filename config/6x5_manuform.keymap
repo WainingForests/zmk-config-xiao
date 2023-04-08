@@ -35,7 +35,7 @@
     &trans       &trans           &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(0,0,0)           &trans             &trans           &trans           &trans           &trans           &trans                        &trans
                                   &trans           &trans                        &trans                                               &trans           &trans           &trans
                                                    &trans                        &trans                                               &trans           &trans
-            &bootloader           &reset                                                                                                                                &trans           &trans
+            &bootloader           &sys_reset                                                                                                                                &trans           &trans
             >;
         };
     };
