@@ -1,10 +1,6 @@
-/* Copyright (c) 2021-2022 The ZMK Contributors
- * SPDX-License-Identifier: MIT
- */
-
 #include <dt-bindings/led/led.h>
 
-pinctrl {
+&pinctrl {
 	spi1_default: spi1_default {
 		group1 {
 			psels = <NRF_PSEL(SPIM_MOSI, 0, 6)>;
@@ -22,7 +18,7 @@ pinctrl {
 &spi1 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
-	
+
 	pinctrl-0 = <&spi1_default>;
 	pinctrl-1 = <&spi1_sleep>;
 	pinctrl-names = "default", "sleep";
@@ -39,10 +35,9 @@ pinctrl {
 		chain-length = <15>; /* arbitrary; change at will */
 		spi-one-frame = <0x70>;
 		spi-zero-frame = <0x40>;
-                color-mapping = <LED_COLOR_ID_GREEN
-                                 LED_COLOR_ID_RED
-                                 LED_COLOR_ID_BLUE>;
-        };
+
+		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
+	};
 };
 
 / {
