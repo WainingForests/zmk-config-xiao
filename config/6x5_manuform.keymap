@@ -11,74 +11,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-  behaviors {
-    hm: homerow_mods {
-      compatible = "zmk,behavior-hold-tap";
-      label = "HOMEROW_MODS";
-      #binding-cells = <2>;
-      tapping-term-ms = <150>;
-      quick-tap-ms = <0>;
-      flavor = "tap-preferred";
-      bindings =
-        <&kp>,
-        <&kp>;
-    };
-  };
 
-  combos {
-    compatible = "zmk,combos";
-
-    tab {
-      bindings = <&trans>;
-      key-positions = <2 3>;
-    };
-
-    ctrl {
-      bindings = <&kp LCTRL>;
-      key-positions = <26 27>;
-    };
-
-    cmd {
-      bindings = <&kp LCMD>;
-      key-positions = <37 38>;
-    };
-
-    alt {
-      bindings = <&kp LEFT_ALT>;
-      key-positions = <39 40>;
-    };
-
-    shift {
-      bindings = <&kp LSHIFT>;
-      key-positions = <8 9>;
-    };
-
-    caps_word {
-      bindings = <&caps_word>;
-      key-positions = <17 18>;
-    };
-
-    delete {
-      bindings = <&kp DEL>;
-      key-positions = <32 33>;
-    };
-  };
-
-  macros {
-    zed_em_kay: zed_em_kay {
-      compatible = "zmk,behavior-macro";
-      label = "ZM_zed_em_kay";
-      #binding-cells = <0>;
-      bindings =
-        <&macro_press>,
-        <&kp LSHFT>,
-        <&macro_tap>,
-        <&kp Z &kp M &kp K>,
-        <&macro_release>,
-        <&kp LSHFT>;
-    };
-  };
-  
     keymap {
         compatible = "zmk,keymap";
 
