@@ -15,4 +15,3 @@ config ZMK_SPLIT
 
 endif
 
-CONFIG_NFCT_PINS_AS_GPIOS=y
